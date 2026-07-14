@@ -3,6 +3,8 @@ import SearchBar from "../../components/home/SearchBar";
 import FeaturedProperties from "../../components/home/FeaturedProperties";
 import Services from "../../components/home/Services";
 import AboutSection from "../../components/home/AboutSection";
+import Testimonials from "../../components/home/Testimonials";
+
 function Home() {
   return (
     <>
@@ -11,6 +13,7 @@ function Home() {
       <FeaturedProperties />
       <Services />
       <AboutSection />
+      <Testimonials />
     </>
   );
 }
