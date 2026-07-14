@@ -1,3 +1,7 @@
+import mansion1 from "../assets/images/properties/mansion-1.webp";
+import mansion2 from "../assets/images/properties/mansion-2.webp";
+import mansion3 from "../assets/images/properties/mansion-3.webp";
+
 export interface Property {
   id: number;
   title: string;
@@ -15,7 +19,7 @@ const properties: Property[] = [
     title: "Mansão Alphaville",
     location: "Alphaville, São Paulo",
     price: 8950000,
-    image: "/images/properties/mansion-1.webp",
+    image: mansion1,
     bedrooms: 5,
     bathrooms: 7,
     area: 620,
@@ -25,7 +29,7 @@ const properties: Property[] = [
     title: "Residência Jardim Europa",
     location: "Jardim Europa, São Paulo",
     price: 12500000,
-    image: "/images/properties/mansion-2.webp",
+    image: mansion2,
     bedrooms: 6,
     bathrooms: 8,
     area: 850,
@@ -35,7 +39,7 @@ const properties: Property[] = [
     title: "Casa Contemporânea",
     location: "Campinas, São Paulo",
     price: 5600000,
-    image: "/images/properties/mansion-3.webp",
+    image: mansion3,
     bedrooms: 4,
     bathrooms: 5,
     area: 430,
